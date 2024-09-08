@@ -1,0 +1,128 @@
+body {
+    background-color: #fff6e1;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+.header-buttons {
+    display: flex;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    width: 100%;
+    background-color: #FFE9D1;
+    height: 65px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.search {
+    display: flex;
+    max-width: 180px;
+    margin: 15px 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FFFFFF; 
+    color: #535353; 
+    transition: .2s;
+}
+.search:focus {
+    outline: none; 
+  }
+.button{ 
+    padding: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 15px;
+}
+.button:hover {
+    background-size: 90% 60%;
+    background-color: #ffd7ac9d;
+    background-origin: padding-box; 
+    transition: .3s;
+}
+
+.block-1 .block-2 .block-3 .block-4 .block-5 .block-6 {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    background-color: #535353;
+    padding: 100px;
+    margin: 20px;
+}
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.block {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.main {
+    justify-content: center;
+    display: flex;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 70px 0px;
+    color: rgb(107, 107, 107);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #535353;
+}
+.new-products {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: start;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: rgb(117, 117, 117);;
+    grid-gap: 10px;
+}
+.new-products li {
+    border: 1px solid;
+    margin: 0px 30px 15px auto;
+    border-radius: 15px;
+    margin-bottom: 45px;
+    width: 20%;
+    max-width: 250px;
+    text-align: center;
+    height: 150px;
+    max-height: 250px;
+    background-image: linear-gradient(to bottom, #363636c9, #66666688, #968787be, #1111);
+    color: #FFE9D1;
+    padding: 15px;
+    box-shadow: 3px 3px 150px 3px #25252588;
+    border: none
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    
+}
+.section-1 {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: rgb(107, 107, 107);
+    margin: 15px 15px;
+    background-color: #b4b4b4b7;
+    border-radius: 12px;
+    box-shadow: 15px 15px 15000px ;
+    
+}

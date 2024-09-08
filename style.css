@@ -105,8 +105,9 @@ a {
     background-image: linear-gradient(to bottom, #363636c9, #66666688, #968787be, #1111);
     color: #FFE9D1;
     padding: 15px;
-    box-shadow: 3px 3px 150px 3px #25252588;
-    border: none
+    box-shadow: 3px 3px 10px 3px #25252588;
+    border: none;
+    transition: .6s;
 }
 .flex-container {
     display: flex;
@@ -124,5 +125,8 @@ a {
     background-color: #b4b4b4b7;
     border-radius: 12px;
     box-shadow: 15px 15px 15000px ;
-    
+}
+.new-products li:hover {
+    width: 25%;
+    transition: .7s;
 }

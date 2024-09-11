@@ -1,8 +1,44 @@
 @media only screen and (max-width: 768px) {
+        /* Змінюємо розмір шрифту для кращої читабельності */
+        body {
+          font-size: 16px;
+        }
+      
+        /* Змінюємо ширину контейнеру для кращого відображення на маленьких екранах */
+        .container {
+          width: 90%;
+          margin: 0 auto;
+        }
+      
+        /* Змінюємо розмір зображень для економії місця на екрані */
+        img {
+          width: 100%;
+          height: auto;
+        }
+      
+        /* Змінюємо відступи для кращого відображення на маленьких екранах */
+        .header, .footer {
+          padding: 10px;
+        }
+      
+        /* Змінюємо розмір кнопок для кращого натискання на них */
+        .button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+        .transparent {
+            display: none;
+            font-size: 8px;
+        }
+      }
 
-}
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
+    body {
+        font-size: 12px;
+      }
+      .transparent {
+        display: block;
+      }
 }
 @media only screen and (min-width: 1025px) {
 
@@ -116,7 +152,7 @@ a {
     padding: 15px;
     box-shadow: 3px 3px 10px 3px #25252588;
     border: none;
-    transition: .6s;
+    transition: .6s;  
 }
 .flex-container {
     display: flex;
@@ -124,6 +160,7 @@ a {
     
 }
 .section-1 {
+    
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -193,4 +230,13 @@ a {
 .block-section-2 ul li:hover {
     transition: .6s;
 }
+.section-1 li, .section-2 li {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .transparent {
+    background-color: #53535338;
+    border-radius: 12px;
+  }
 

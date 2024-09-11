@@ -1,3 +1,12 @@
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media only screen and (min-width: 1025px) {
+
+}
 body {
     background-color: #fff6e1;
     margin: 0;
@@ -181,3 +190,7 @@ a {
     border: none;
     transition: .6s;
 }
+.block-section-2 ul li:hover {
+    transition: .6s;
+}
+
